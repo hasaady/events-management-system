@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evently.Api", "Evently.Api\Evently.Api.csproj", "{4E1A11D1-B13A-4B96-B058-5953944A14B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6AE07FAE-CCD4-4F70-BA44-FEF06D8A9C76}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E503CF4-7242-46CF-A392-1AF50FAF0BE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{1F90D889-E86B-4655-9787-EA1F70B96961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Moduls", "Moduls", "{332711BE-42CF-47E7-9742-52F34D49BF8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evently.Events", "Evently.Events\Evently.Events.csproj", "{C29DD94E-A6A3-4BA4-B59A-BCF7A05D8C60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E1A11D1-B13A-4B96-B058-5953944A14B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1A11D1-B13A-4B96-B058-5953944A14B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1A11D1-B13A-4B96-B058-5953944A14B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1A11D1-B13A-4B96-B058-5953944A14B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29DD94E-A6A3-4BA4-B59A-BCF7A05D8C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29DD94E-A6A3-4BA4-B59A-BCF7A05D8C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29DD94E-A6A3-4BA4-B59A-BCF7A05D8C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29DD94E-A6A3-4BA4-B59A-BCF7A05D8C60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F90D889-E86B-4655-9787-EA1F70B96961} = {9E503CF4-7242-46CF-A392-1AF50FAF0BE6}
+		{332711BE-42CF-47E7-9742-52F34D49BF8C} = {9E503CF4-7242-46CF-A392-1AF50FAF0BE6}
+		{4E1A11D1-B13A-4B96-B058-5953944A14B5} = {1F90D889-E86B-4655-9787-EA1F70B96961}
+		{C29DD94E-A6A3-4BA4-B59A-BCF7A05D8C60} = {332711BE-42CF-47E7-9742-52F34D49BF8C}
+	EndGlobalSection
+EndGlobal

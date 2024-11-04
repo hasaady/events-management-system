@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  evently.api:
+    build:
+      context: "/Users/hanan/RiderProjects/Evently"
+      dockerfile: "Evently.Api/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/Evently.Api.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "evently.api:dev"
+    ports: []
+    volumes:
+    - "/Users/hanan/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/hanan/RiderProjects/Evently/Evently.Api:/app:rw"
+    - "/Users/hanan/RiderProjects/Evently:/src:rw"
+    working_dir: "/app"
