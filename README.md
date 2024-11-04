@@ -1,1 +1,1 @@
-# events-management-system
+# evently-backend
