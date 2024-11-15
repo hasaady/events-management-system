@@ -2,7 +2,7 @@
 services:
   evently.api:
     build:
-      context: "/Users/hanan/RiderProjects/Evently"
+      context: "/Users/hanan/Desktop/Repos/evently-backend/Evently"
       dockerfile: "Evently.Api/Dockerfile"
       target: "base"
     command: []
@@ -16,6 +16,6 @@ services:
     ports: []
     volumes:
     - "/Users/hanan/.nuget/packages:/home/app/.nuget/packages"
-    - "/Users/hanan/RiderProjects/Evently/Evently.Api:/app:rw"
-    - "/Users/hanan/RiderProjects/Evently:/src:rw"
+    - "/Users/hanan/Desktop/Repos/evently-backend/Evently/Evently.Api:/app:rw"
+    - "/Users/hanan/Desktop/Repos/evently-backend/Evently:/src:rw"
     working_dir: "/app"
